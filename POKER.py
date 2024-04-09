@@ -82,18 +82,18 @@ while True:
 
 
 
-# card = Card('♠', 'K')
-# print(card)
-# card2 = Card('♣', '4')
-# print(card2)
-#
-# cards_list = [card, card2]
-# print(cards_list)
-#
-# deck = Deck()
-# print(deck.cards)
-# deck.Shuffle()
-# print(deck.cards)
-#
-# hand = PokerHand(deck)
-# print(hand.cards)
+card = Card('♠', 'K')
+print(card)
+card2 = Card('♣', '4')
+print(card2)
+
+cards_list = [card, card2]
+print(cards_list)
+
+deck = Deck()
+print(deck.cards)
+deck.Shuffle()
+print(deck.cards)
+
+hand = PokerHand(deck)
+print(hand.cards)

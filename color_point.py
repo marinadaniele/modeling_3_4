@@ -51,3 +51,4 @@ print(f"{red_point} has distance to origin = {red_point.distance_origin}") #afte
  #   color_point = ColorPoint(random.randint(1, 100), random.randint(1, 100), random.choice(colors))
   #  color_points.append(color_point)
 #print(color_points)
+
